@@ -1,0 +1,235 @@
+
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Varanasi Laptop Services & Sales</title>
+  <meta name="description" content="Laptop repair, upgrade & sales in Varanasi — fast service, genuine parts, great prices." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#ff4f81;
+      --accent2:#4f9dff;
+      --accent3:#00c389;
+      --muted:#4b5563;
+      --card:#ffffff;
+      --bg:#fff4f7;
+      --radius:14px;
+      --max:1100px;
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#fff4f7,#f4f9ff);color:#0f172a;line-height:1.5}
+    .container{max-width:var(--max);margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:20px;box-shadow:0 6px 16px rgba(255,79,129,0.4)}
+    nav a{margin-left:18px;text-decoration:none;color:#1f2937;font-weight:700}
+    nav a:hover{color:var(--accent)}
+    .hero{display:flex;gap:28px;align-items:center;padding:32px;background:linear-gradient(135deg,#ffe1eb,#e1efff);border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,0.08)}
+    .hero-left{flex:1}
+    h1{margin:0;font-size:32px;color:#1e1e1e}
+    p.lead{color:var(--muted);margin-top:10px}
+    .cta{margin-top:18px;display:flex;gap:12px}
+    .btn{padding:12px 18px;border-radius:12px;border:0;cursor:pointer;font-weight:700;transition:0.2s}
+    .btn-primary{background:var(--accent);color:white;box-shadow:0 6px 16px rgba(255,79,129,0.4)}
+    .btn-primary:hover{background:#ff3a6e}
+    .btn-ghost{background:white;border:2px solid var(--accent2);color:var(--accent2)}
+    .btn-ghost:hover{background:var(--accent2);color:white}
+    .hero-right{width:420px;max-width:40%;background:white;padding:18px;border-radius:16px;box-shadow:0 8px 32px rgba(0,0,0,0.12)}
+    .feature-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
+    .card{background:white;padding:16px;border-radius:16px;box-shadow:0 6px 20px rgba(15,23,42,0.08);border-left:6px solid var(--accent2)}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}
+    .service{border-left:6px solid var(--accent3)}
+    .products{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .product{background:linear-gradient(135deg,#ffffff,#eafff6);padding:16px;border-radius:16px;border-left:6px solid var(--accent3)}
+    .grid-two{display:grid;grid-template-columns:2fr 1fr;gap:18px;margin-top:22px}
+    .faq{margin-top:18px}
+    footer{margin-top:34px;padding:20px 0;border-top:2px solid rgba(0,0,0,0.1);color:var(--muted);display:flex;align-items:center;justify-content:space-between}
+    .contact-card{background:white;padding:16px;border-radius:16px;box-shadow:0 6px 20px rgba(0,0,0,0.08);border-left:6px solid var(--accent)}
+    .small{font-size:13px;color:var(--muted)}
+    /* responsive */
+    @media (max-width:900px){
+      .hero{flex-direction:column}
+      .hero-right{max-width:100%;width:100%}
+      .services,.products{grid-template-columns:repeat(2,1fr)}
+      .grid-two{grid-template-columns:1fr}
+    }
+    @media (max-width:520px){
+      nav a{display:none}
+      .logo{width:52px;height:52px}
+      h1{font-size:26px}
+      .services,.products{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">VL</div>
+        <div>
+          <div style="font-weight:800">Ganesh Laptop Services</div>
+          <div class="small">Repair • Upgrade • Buy & Sell</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Fast, reliable laptop repair & genuine parts — Varanasi</h1>
+        <p class="lead">Screen replacement, motherboard repair, virus removal, data recovery, RAM & SSD upgrades, and a curated selection of refurbished laptops.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#contact">Book Service</a>
+          <a class="btn btn-ghost" href="#products">View Laptops</a>
+        </div>
+
+        <div class="feature-list">
+          <div class="card small">Free diagnosis on-site or walk-in</div>
+          <div class="card small">Genuine parts & warranty</div>
+          <div class="card small">Quick turnaround — most repairs same day</div>
+          <div class="card small">Pickup & doorstep service available</div>
+        </div>
+
+      </div>
+
+      <aside class="hero-right">
+        <div style="display:flex;align-items:center;justify-content:space-between">
+          <div>
+            <div style="font-weight:800">Call / WhatsApp</div>
+            <div style="font-size:18px;margin-top:6px">+91 9703032839</div>
+            <div class="small" style="margin-top:6px">Email: <a href="mailto:ganeshlaptops@gmail.com">ganeshlaptops@gmail.com</a></div>
+          </div>
+          <div style="text-align:right">
+            <div class="small">Open</div>
+            <div style="font-weight:700;margin-top:6px">Mon - Sat, 10:00 - 19:00</div>
+          </div>
+        </div>
+        <hr style="margin:12px 0;border:none;border-top:1px solid rgba(11,99,255,0.06)">
+        <div class="contact-card">
+          <strong>Quick Book</strong>
+          <form onsubmit="event.preventDefault();alert('Thanks! We will contact you on the number provided.');" style="margin-top:8px;display:flex;flex-direction:column;gap:8px">
+            <input required placeholder="Your name" style="padding:10px;border-radius:8px;border:1px solid #e6eefc" />
+            <input required placeholder="Phone (eg. +91 9xxxxxxxxx)" style="padding:10px;border-radius:8px;border:1px solid #e6eefc" />
+            <select style="padding:10px;border-radius:8px;border:1px solid #e6eefc">
+              <option>Choose service</option>
+              <option>Screen / Display Repair</option>
+              <option>Battery Replacement</option>
+              <option>Data Recovery</option>
+              <option>Performance Upgrade (RAM/SSD)</option>
+            </select>
+            <button class="btn btn-primary">Request Callback</button>
+          </form>
+        </div>
+      </aside>
+    </section>
+
+    <section id="services">
+      <h2 style="margin-top:28px">Our Services</h2>
+      <div class="services">
+        <div class="card service">
+          <strong>Hardware Repair</strong>
+          <p class="small">Motherboard, power jack, keyboard, display and connector repairs.</p>
+        </div>
+        <div class="card service">
+          <strong>Screen Replacement</strong>
+          <p class="small">Original and high-quality compatible screens for most models.</p>
+        </div>
+        <div class="card service">
+          <strong>Data Recovery</strong>
+          <p class="small">Recover files from damaged drives, accidental deletion & OS failures.</p>
+        </div>
+        <div class="card service">
+          <strong>Battery & Chargers</strong>
+          <p class="small">Genuine batteries and verified chargers with warranty.</p>
+        </div>
+        <div class="card service">
+          <strong>Upgrades</strong>
+          <p class="small">RAM, SSD, and thermal improvements to boost performance.</p>
+        </div>
+        <div class="card service">
+          <strong>Refurb & Sales</strong>
+          <p class="small">Refurbished laptops inspected, cleaned and tested — great value.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="products">
+      <h2 style="margin-top:28px">Featured Laptops</h2>
+      <div class="products">
+        <div class="product">
+          <strong>Refurbished Dell Inspiron 14</strong>
+          <p class="small">Intel i5, 8GB RAM, 512GB SSD — Cleaned, tested, 6-month warranty.</p>
+          <div style="margin-top:8px;font-weight:700">₹19,999</div>
+        </div>
+        <div class="product">
+          <strong>HP ProBook 450</strong>
+          <p class="small">Intel i7, 16GB RAM, 1TB SSD — Good battery life, warranty 6 months.</p>
+          <div style="margin-top:8px;font-weight:700">₹29,499</div>
+        </div>
+        <div class="product">
+          <strong>Lenovo ThinkPad T Series</strong>
+          <p class="small">Business-grade, keyboards replaced, SSD upgraded.</p>
+          <div style="margin-top:8px;font-weight:700">₹24,750</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid-two">
+      <div>
+        <section class="faq">
+          <h2 style="margin-top:26px">FAQ</h2>
+          <div class="card" style="margin-top:12px;padding:14px">
+            <p><strong>Q:</strong> Do you provide warranty on repairs?<br><strong>A:</strong> Yes — most repairs come with a 30–180 day warranty depending on the part.</p>
+            <hr style="margin:10px 0;border:none;border-top:1px solid rgba(15,23,42,0.04)">
+            <p><strong>Q:</strong> Do you offer pickup and doorstep repair?<br><strong>A:</strong> Yes — pickup/drop services are available in Varanasi for a small fee.</p>
+            <hr style="margin:10px 0;border:none;border-top:1px solid rgba(15,23,42,0.04)">
+            <p><strong>Q:</strong> Can you recover data from a non-booting laptop?<br><strong>A:</strong> Often yes — we clone drives and attempt file-level recovery. Success depends on physical damage.</p>
+          </div>
+        </section>
+      </div>
+
+      <aside id="contact">
+        <div class="card contact-card">
+          <h3>Contact & Location</h3>
+          <p class="small">Ganesh Laptop Services<br>Shop / Service Centre — Varanasi</p>
+          <p style="margin-top:8px"><strong>Phone:</strong> <a href="tel:+919703032839">+91 9703032839</a></p>
+          <p><strong>Email:</strong> <a href="mailto:ganeshlaptops@gmail.com">ganeshlaptops@gmail.com</a></p>
+          <p class="small" style="margin-top:10px">Prefer WhatsApp? <a href="https://wa.me/919703032839" target="_blank" rel="noopener">Message us</a></p>
+
+          <hr style="margin:10px 0;border:none;border-top:1px solid rgba(15,23,42,0.04)">
+          <strong>Opening Hours</strong>
+          <p class="small">Mon - Sat: 10:00 — 19:00<br>Sun: Closed</p>
+
+          <div style="margin-top:10px">
+            <a class="btn btn-primary" href="mailto:ganeshlaptops@gmail.com">Email Us</a>
+          </div>
+        </div>
+
+        <div style="margin-top:14px;text-align:center;font-size:13px;color:var(--muted)">
+          <div style="margin-bottom:6px">Find us on GitHub Pages</div>
+          <a href="https://krishnamm-ux.github.io/varanasi-laptop-services/" target="_blank">krishnamm-ux.github.io/varanasi-laptop-services/</a>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div class="small">© <span id="year"></span> Varanasi Laptop Services — All rights reserved.</div>
+      <div class="small">Designed with care • Phone: <a href="tel:+919703032839">+91 9703032839</a></div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
